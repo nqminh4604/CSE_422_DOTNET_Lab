@@ -1,0 +1,190 @@
+﻿@{
+	ViewData["Title"] = "Device Page";
+}
+@model List<Device>
+@{
+	var categories = ViewBag.Categories as List<Category>;
+}
+<div class="row justify-content-between body-header">
+	<h3 class="title col-3">List of Device</h3>
+
+	<div class="col-3 search-input">
+		<form method="get" action="@Url.Action("Filter", "Device")">
+			<div class="input-group">
+				<input type="text"
+					   class="form-control"
+					   name="name"
+					   placeholder="Search by Device Name"
+					   value="@(ViewContext.HttpContext.Request.Query["name"])"
+					   aria-label="Search" />
+				<button type="submit" class="btn btn-primary">
+					<i class="fa fa-search"></i>
+				</button>
+			</div>
+		</form>
+	</div>
+
+	<div class="dropdown col-1">
+		<button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+			Group by
+		</button>
+		<ul class="dropdown-menu">
+			<li>
+				<a class="dropdown-item" href="@Url.Action("Filter", "Device", new { status = "All" })">
+					All
+				</a>
+			</li>
+			<li>
+				<a class="dropdown-item" href="@Url.Action("Filter", "Device", new { status = "In use" })">
+					In use
+				</a>
+			</li>
+			<li>
+				<a class="dropdown-item" href="@Url.Action("Filter", "Device", new { status = "Broken" })">
+					Broken
+				</a>
+			</li>
+			<li>
+				<a class="dropdown-item" href="@Url.Action("Filter", "Device", new { status = "Under maintenance" })">
+					Under maintenance
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<button type="button" class="add-btn btn btn-primary col-2" data-bs-toggle="modal" data-bs-target="#add-modal"><i class="fa fa-plus" aria-hidden="true"></i> Add Device</button>
+</div>
+
+<!-- Add Device Modal -->
+<div class="modal fade" id="add-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modalLabel">Add Device</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<form asp-controller="Device" asp-action="AddDevice" method="post">
+					<div class="mb-3">
+						<label for="DeviceName" class="form-label">Device Name</label>
+						<input type="text" class="form-control" id="DeviceName" name="Name" placeholder="Enter Device Name" required />
+					</div>
+					<div class="mb-3">
+						<label for="DeviceCode" class="form-label">Device Code</label>
+						<input type="text" class="form-control" id="DeviceCode" name="Code" placeholder="Enter Device Code" required />
+					</div>
+					<div class="mb-3">
+						<label for="Category" class="form-label">Category</label>
+						<select class="form-select" id="Category" name="CategoryId" required>
+							<option value="" selected disabled>Select Category</option>
+							@foreach (var category in @categories)
+							{
+								<option value="@category.Id">@category.Name</option>
+							}
+						</select>
+					</div>
+					<div class="mb-3">
+						<label for="Status" class="form-label">Status</label>
+						<select class="form-select" id="Status" name="Status" required>
+							<option value="In use">In use</option>
+							<option value="Broken">Broken</option>
+							<option value="Under maintenance">Under maintenance</option>
+						</select>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						<button type="submit" class="btn btn-primary">Save</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Device List Table -->
+<table class="table table-light table-hover">
+	<thead class="thead-dark">
+		<tr>
+			<th scope="col">Id</th>
+			<th scope="col">Device Name</th>
+			<th scope="col">Device Code</th>
+			<th scope="col">Category</th>
+			<th scope="col">Date of Entry</th>
+			<th scope="col">Status</th>
+			<th scope="col">Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var device in Model)
+		{
+			<tr>
+				<td>@device.Id</td>
+				<td>@device.Name</td>
+				<td>@device.Code</td>
+				<td>@device.Category?.Name</td>
+				<td>@device.DateOfEntry</td>
+				<td>@device.Status</td>
+				<td>
+					<div class="d-flex gap-2">
+						<button type="submit" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#edit-modal-@device.Id"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+						<form asp-controller="Device" asp-action="DeleteDevice" method="post">
+							<input type="number" class="form-control" name="DeviceId" value="@device.Id" hidden />
+							<button type="submit" class="btn btn-outline-danger"><i class="fa fa-trash" aria-hidden="true"></i></button>
+						</form>
+					</div>
+				</td>
+
+				<!-- Edit Device Modal -->
+				<div class="modal fade" id="edit-modal-@device.Id" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel">Edit Device</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<form asp-controller="Device" asp-action="EditDevice" method="post">
+									<input type="hidden" name="Id" value="@device.Id" />
+									<div class="mb-3">
+										<label for="DeviceName" class="form-label">Device Name</label>
+										<input type="text" class="form-control" id="DeviceName" name="Name" value="@device.Name" required />
+									</div>
+									<div class="mb-3">
+										<label for="DeviceCode" class="form-label">Device Code</label>
+										<input type="text" class="form-control" id="DeviceCode" name="Code" value="@device.Code" required />
+									</div>
+									<div class="mb-3">
+										<label for="Category" class="form-label">Category</label>
+										<select class="form-select" id="Category" name="CategoryId" required>
+											<option value="" selected disabled>Select Category</option>
+											@foreach (var category in @categories)
+											{
+												<option value="@category.Id" selected="@(category.Id == device.Category?.Id)">@category.Name</option>
+											}
+										</select>
+									</div>
+
+									<div class="mb-3">
+										<label for="Status" class="form-label">Status</label>
+										<select class="form-select" id="Status" name="Status" required>
+											<option value="" selected disabled>Select Status</option>
+											<option value="In use" selected="@(device.Status ==  "In use")">In use</option>
+											<option value="Broken" selected="@(device.Status == "Broken")">Broken</option>
+											<option value="Under maintenance" selected="@(device.Status == "Under maintenance")">Under maintenance</option>
+										</select>
+									</div>
+
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+										<button type="submit" class="btn btn-primary">Save</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</tr>
+		}
+	</tbody>
+</table>

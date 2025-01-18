@@ -1,0 +1,105 @@
+﻿@{
+	ViewData["Title"] = "User Page";
+}
+@model List<User>
+<div class="row justify-content-between body-header">
+	<h3 class="title col-4">List of User</h3>
+	<button type="button" class="add-btn btn btn-primary col-2" data-bs-toggle="modal" data-bs-target="#add-modal"><i class="fa fa-plus" aria-hidden="true"></i>Create user</button>
+
+</div>
+<div class="modal fade" id="add-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modalLabel">Create User</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<form asp-controller="User" asp-action="AddUser" method="post">
+					<div class="mb-3">
+						<label for="UserName" class="form-label">User Full Name</label>
+						<input type="text" class="form-control" id="UserName" name="fullName" placeholder="Enter User Full Name"
+							   required minlength="3" maxlength="50">
+					</div>
+					<div class="mb-3">
+						<label for="email" class="form-label">Email</label>
+						<input type="email" class="form-control" id="email" name="email" placeholder="Enter Email" required>
+					</div>
+					<div class="mb-3">
+						<label for="phone" class="form-label">Phone</label>
+						<input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter Phone Number" required
+						maxlength="10" minlength="10">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						<button type="submit" class="btn btn-primary">Save</button>
+					</div>
+				</form>
+			</div>
+
+		</div>
+	</div>
+</div>
+<table class="table table-light table-hover">
+	<thead class="thead-dark">
+		<tr>
+			<th scope="col">Id</th>
+			<th scope="col">User Name</th>
+			<th scope="col">Email</th>
+			<th scope="col">Phone</th>
+			<th scope="col">Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var User in Model)
+		{
+			<tr>
+				<td>@User.Id</td>
+				<td>@User.FullName</td>
+				<td>@User.Email</td>
+				<td>@User.PhoneNumber</td>
+				<td>
+					<div class="d-flex gap-2">
+						<button type="submit" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#edit-modal-@User.Id"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+						<form asp-controller="User" asp-action="DeleteUser" method="post">
+							<input type="number" class="form-control" name="UserId" value="@User.Id" hidden />
+							<button type="submit" class="btn btn-outline-danger"><i class="fa fa-trash" aria-hidden="true"></i></button>
+						</form>
+					</div>
+				</td>
+				<div class="modal fade" id="edit-modal-@User.Id" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel">Edit User</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<form asp-controller="User" asp-action="EditUser" method="post">
+									<input type="hidden" name="Id" value="@User.Id" />
+									<div class="mb-3">
+										<label for="UserName" class="form-label">User Name</label>
+										<input type="text" class="form-control" id="UserName" name="fullName" value="@User.FullName" />
+									</div>
+									<div class="mb-3">
+										<label for="email" class="form-label">Email</label>
+										<input type="email" class="form-control" id="email" name="email" value="@User.Email" />
+									</div>
+									<div class="mb-3">
+										<label for="phone" class="form-label">Phone</label>
+										<input type="tel" class="form-control" id="phone" name="phoneNumber" value="@User.PhoneNumber" />
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+										<button type="submit" class="btn btn-primary">Save</button>
+									</div>
+								</form>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</tr>
+		}
+	</tbody>
+</table>

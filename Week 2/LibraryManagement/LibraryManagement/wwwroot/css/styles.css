@@ -1,0 +1,16 @@
+﻿.body-header {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    display: inline-block;
+}
+
+.add-btn i {
+    margin-right: 10px;
+}
+
+.add-btn {
+    margin-right: 20px;
+}

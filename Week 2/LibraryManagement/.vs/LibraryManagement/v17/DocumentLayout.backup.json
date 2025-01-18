@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 2\\LibraryManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C020C94-488B-4DAE-A0D0-A0322302606D}|LibraryManagement\\LibraryManagement.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\week 2\\librarymanagement\\librarymanagement\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C020C94-488B-4DAE-A0D0-A0322302606D}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C020C94-488B-4DAE-A0D0-A0322302606D}|LibraryManagement\\LibraryManagement.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\week 2\\librarymanagement\\librarymanagement\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C020C94-488B-4DAE-A0D0-A0322302606D}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C020C94-488B-4DAE-A0D0-A0322302606D}|LibraryManagement\\LibraryManagement.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\week 2\\librarymanagement\\librarymanagement\\views\\device\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C020C94-488B-4DAE-A0D0-A0322302606D}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\views\\device\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C020C94-488B-4DAE-A0D0-A0322302606D}|LibraryManagement\\LibraryManagement.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\week 2\\librarymanagement\\librarymanagement\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C020C94-488B-4DAE-A0D0-A0322302606D}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 2\\LibraryManagement\\LibraryManagement\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "LibraryManagement\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 2\\LibraryManagement\\LibraryManagement\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "LibraryManagement\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T14:13:12.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Device.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 2\\LibraryManagement\\LibraryManagement\\Models\\Device.cs",
+              "RelativeDocumentMoniker": "LibraryManagement\\Models\\Device.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 2\\LibraryManagement\\LibraryManagement\\Models\\Device.cs",
+              "RelativeToolTip": "LibraryManagement\\Models\\Device.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:18:16.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 2\\LibraryManagement\\LibraryManagement\\Views\\Device\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagement\\Views\\Device\\Index.cshtml",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 2\\LibraryManagement\\LibraryManagement\\Views\\Device\\Index.cshtml",
+              "RelativeToolTip": "LibraryManagement\\Views\\Device\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T18:00:39.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeviceController.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 2\\LibraryManagement\\LibraryManagement\\Controllers\\DeviceController.cs",
+              "RelativeDocumentMoniker": "LibraryManagement\\Controllers\\DeviceController.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 2\\LibraryManagement\\LibraryManagement\\Controllers\\DeviceController.cs",
+              "RelativeToolTip": "LibraryManagement\\Controllers\\DeviceController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:00:36.905Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

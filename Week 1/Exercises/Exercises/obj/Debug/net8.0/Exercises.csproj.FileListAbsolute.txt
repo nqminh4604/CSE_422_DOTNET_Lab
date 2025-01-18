@@ -1,0 +1,14 @@
+D:\EIU\2425-Q2\CSE_422\Lab\Week 1\Exercises\Exercises\bin\Debug\net8.0\Exercises.exe
+D:\EIU\2425-Q2\CSE_422\Lab\Week 1\Exercises\Exercises\bin\Debug\net8.0\Exercises.deps.json
+D:\EIU\2425-Q2\CSE_422\Lab\Week 1\Exercises\Exercises\bin\Debug\net8.0\Exercises.runtimeconfig.json
+D:\EIU\2425-Q2\CSE_422\Lab\Week 1\Exercises\Exercises\bin\Debug\net8.0\Exercises.dll
+D:\EIU\2425-Q2\CSE_422\Lab\Week 1\Exercises\Exercises\bin\Debug\net8.0\Exercises.pdb
+D:\EIU\2425-Q2\CSE_422\Lab\Week 1\Exercises\Exercises\obj\Debug\net8.0\Exercises.GeneratedMSBuildEditorConfig.editorconfig
+D:\EIU\2425-Q2\CSE_422\Lab\Week 1\Exercises\Exercises\obj\Debug\net8.0\Exercises.AssemblyInfoInputs.cache
+D:\EIU\2425-Q2\CSE_422\Lab\Week 1\Exercises\Exercises\obj\Debug\net8.0\Exercises.AssemblyInfo.cs
+D:\EIU\2425-Q2\CSE_422\Lab\Week 1\Exercises\Exercises\obj\Debug\net8.0\Exercises.csproj.CoreCompileInputs.cache
+D:\EIU\2425-Q2\CSE_422\Lab\Week 1\Exercises\Exercises\obj\Debug\net8.0\Exercises.dll
+D:\EIU\2425-Q2\CSE_422\Lab\Week 1\Exercises\Exercises\obj\Debug\net8.0\refint\Exercises.dll
+D:\EIU\2425-Q2\CSE_422\Lab\Week 1\Exercises\Exercises\obj\Debug\net8.0\Exercises.pdb
+D:\EIU\2425-Q2\CSE_422\Lab\Week 1\Exercises\Exercises\obj\Debug\net8.0\Exercises.genruntimeconfig.cache
+D:\EIU\2425-Q2\CSE_422\Lab\Week 1\Exercises\Exercises\obj\Debug\net8.0\ref\Exercises.dll

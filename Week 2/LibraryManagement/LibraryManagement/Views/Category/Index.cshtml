@@ -1,0 +1,83 @@
+﻿@{
+	ViewData["Title"] = "Category Page";
+}
+@model List<Category>
+<div class="row justify-content-between body-header">
+	<h3 class="title col-4">List of Category</h3>
+	<button type="button" class="add-btn btn btn-primary col-2" data-bs-toggle="modal" data-bs-target="#add-modal"><i class="fa fa-plus" aria-hidden="true"></i>Add category</button>
+
+</div>
+<div class="modal fade" id="add-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modalLabel">Add Category</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<form asp-controller="Category" asp-action="AddCategory" method="post">
+					<div class="mb-3">
+						<label for="categoryName" class="form-label">Category Name</label>
+						<input type="text" class="form-control" id="categoryName" name="categoryName" placeholder="Enter category name">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						<button type="submit" class="btn btn-primary">Save</button>
+					</div>
+				</form>
+			</div>
+
+		</div>
+	</div>
+</div>
+<table class="table table-light table-hover">
+	<thead class="thead-dark">
+		<tr>
+			<th scope="col">Id</th>
+			<th scope="col">Category Name</th>
+			<th scope="col">Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var category in Model)
+		{
+			<tr>
+				<td>@category.Id</td>
+				<td>@category.Name</td>
+				<td>
+					<div class="d-flex gap-2">
+						<button type="submit" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#edit-modal-@category.Id"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+						<form asp-controller="Category" asp-action="DeleteCategory" method="post">
+							<input type="number" class="form-control" name="CategoryId" value="@category.Id" hidden />
+							<button type="submit" class="btn btn-outline-danger"><i class="fa fa-trash" aria-hidden="true"></i></button>
+						</form>
+					</div>
+				</td>
+				<div class="modal fade" id="edit-modal-@category.Id" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="modalLabel">Edit Category</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<form asp-controller="Category" asp-action="EditCategory" method="post">
+									<input type="hidden" name="Id" value="@category.Id" />
+									<div class="mb-3">
+										<label for="categoryName" class="form-label">Category Name</label>
+										<input type="text" class="form-control" id="categoryName" name="Name" value="@category.Name" />
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+										<button type="submit" class="btn btn-primary">Save</button>
+									</div>
+								</form>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</tr>
+		}
+	</tbody>
+</table>
