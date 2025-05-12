@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\lab 3\\librarymanagement\\service\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|solutionrelative:service\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\lab 3\\librarymanagement\\service\\advancednotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|solutionrelative:service\\advancednotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\lab 3\\librarymanagement\\transaction\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|solutionrelative:transaction\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\lab 3\\librarymanagement\\transaction\\returntransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|solutionrelative:transaction\\returntransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\lab 3\\librarymanagement\\transaction\\borrowtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|solutionrelative:transaction\\borrowtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\lab 3\\librarymanagement\\member\\premiummember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|solutionrelative:member\\premiummember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\lab 3\\librarymanagement\\member\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|solutionrelative:member\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\lab 3\\librarymanagement\\interfaces\\imemberactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|solutionrelative:interfaces\\imemberactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\lab 3\\librarymanagement\\library\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|solutionrelative:library\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\lab 3\\librarymanagement\\interfaces\\iprintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|solutionrelative:interfaces\\iprintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\lab 3\\librarymanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\lab 3\\librarymanagement\\library\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|solutionrelative:library\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\lab 3\\librarymanagement\\library\\librarycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF138A9D-EFC3-47D8-87E0-F2A1526F00DE}|LibraryManagement.csproj|solutionrelative:library\\librarycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:20:02.748Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdvancedNotificationService.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Service\\AdvancedNotificationService.cs",
+              "RelativeDocumentMoniker": "Service\\AdvancedNotificationService.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Service\\AdvancedNotificationService.cs",
+              "RelativeToolTip": "Service\\AdvancedNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:33:49.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Transaction\\Transaction.cs",
+              "RelativeDocumentMoniker": "Transaction\\Transaction.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Transaction\\Transaction.cs",
+              "RelativeToolTip": "Transaction\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:33:43.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReturnTransaction.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Transaction\\ReturnTransaction.cs",
+              "RelativeDocumentMoniker": "Transaction\\ReturnTransaction.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Transaction\\ReturnTransaction.cs",
+              "RelativeToolTip": "Transaction\\ReturnTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:33:41.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BorrowTransaction.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Transaction\\BorrowTransaction.cs",
+              "RelativeDocumentMoniker": "Transaction\\BorrowTransaction.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Transaction\\BorrowTransaction.cs",
+              "RelativeToolTip": "Transaction\\BorrowTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:33:34.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PremiumMember.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Member\\PremiumMember.cs",
+              "RelativeDocumentMoniker": "Member\\PremiumMember.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Member\\PremiumMember.cs",
+              "RelativeToolTip": "Member\\PremiumMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:33:31.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Service\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Service\\NotificationService.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Service\\NotificationService.cs",
+              "RelativeToolTip": "Service\\NotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:37:03.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Member.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Member\\Member.cs",
+              "RelativeDocumentMoniker": "Member\\Member.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Member\\Member.cs",
+              "RelativeToolTip": "Member\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:33:17.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IPrintable.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Interfaces\\IPrintable.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IPrintable.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Interfaces\\IPrintable.cs",
+              "RelativeToolTip": "Interfaces\\IPrintable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:33:08.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IMemberActions.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Interfaces\\IMemberActions.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IMemberActions.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Interfaces\\IMemberActions.cs",
+              "RelativeToolTip": "Interfaces\\IMemberActions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:33:04.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Library.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Library\\Library.cs",
+              "RelativeDocumentMoniker": "Library\\Library.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Library\\Library.cs",
+              "RelativeToolTip": "Library\\Library.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:12:13.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Library\\Book.cs",
+              "RelativeDocumentMoniker": "Library\\Book.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Library\\Book.cs",
+              "RelativeToolTip": "Library\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:11:35.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LibraryCard.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Library\\LibraryCard.cs",
+              "RelativeDocumentMoniker": "Library\\LibraryCard.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Lab 3\\LibraryManagement\\Library\\LibraryCard.cs",
+              "RelativeToolTip": "Library\\LibraryCard.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:06:31.405Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

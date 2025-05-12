@@ -1,0 +1,15 @@
+D:\EIU\2425-Q2\CSE_422\Lab\Week 5\DesignPattern\obj\Debug\net8.0\DesignPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\EIU\2425-Q2\CSE_422\Lab\Week 5\DesignPattern\obj\Debug\net8.0\DesignPattern.AssemblyInfoInputs.cache
+D:\EIU\2425-Q2\CSE_422\Lab\Week 5\DesignPattern\obj\Debug\net8.0\DesignPattern.AssemblyInfo.cs
+D:\EIU\2425-Q2\CSE_422\Lab\Week 5\DesignPattern\obj\Debug\net8.0\DesignPattern.csproj.CoreCompileInputs.cache
+D:\EIU\2425-Q2\CSE_422\Lab\Week 5\DesignPattern\obj\Debug\net8.0\DesignPattern.sourcelink.json
+D:\EIU\2425-Q2\CSE_422\Lab\Week 5\DesignPattern\bin\Debug\net8.0\DesignPattern.exe
+D:\EIU\2425-Q2\CSE_422\Lab\Week 5\DesignPattern\bin\Debug\net8.0\DesignPattern.deps.json
+D:\EIU\2425-Q2\CSE_422\Lab\Week 5\DesignPattern\bin\Debug\net8.0\DesignPattern.runtimeconfig.json
+D:\EIU\2425-Q2\CSE_422\Lab\Week 5\DesignPattern\bin\Debug\net8.0\DesignPattern.dll
+D:\EIU\2425-Q2\CSE_422\Lab\Week 5\DesignPattern\bin\Debug\net8.0\DesignPattern.pdb
+D:\EIU\2425-Q2\CSE_422\Lab\Week 5\DesignPattern\obj\Debug\net8.0\DesignPattern.dll
+D:\EIU\2425-Q2\CSE_422\Lab\Week 5\DesignPattern\obj\Debug\net8.0\refint\DesignPattern.dll
+D:\EIU\2425-Q2\CSE_422\Lab\Week 5\DesignPattern\obj\Debug\net8.0\DesignPattern.pdb
+D:\EIU\2425-Q2\CSE_422\Lab\Week 5\DesignPattern\obj\Debug\net8.0\DesignPattern.genruntimeconfig.cache
+D:\EIU\2425-Q2\CSE_422\Lab\Week 5\DesignPattern\obj\Debug\net8.0\ref\DesignPattern.dll

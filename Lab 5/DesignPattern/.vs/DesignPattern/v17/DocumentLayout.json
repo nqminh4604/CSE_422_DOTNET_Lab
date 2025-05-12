@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 5\\DesignPattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{565B7951-DCC9-45CA-8B99-1B3F29415811}|DesignPattern.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\week 5\\designpattern\\iloanfeestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565B7951-DCC9-45CA-8B99-1B3F29415811}|DesignPattern.csproj|solutionrelative:iloanfeestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565B7951-DCC9-45CA-8B99-1B3F29415811}|DesignPattern.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\week 5\\designpattern\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565B7951-DCC9-45CA-8B99-1B3F29415811}|DesignPattern.csproj|solutionrelative:iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565B7951-DCC9-45CA-8B99-1B3F29415811}|DesignPattern.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\week 5\\designpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565B7951-DCC9-45CA-8B99-1B3F29415811}|DesignPattern.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565B7951-DCC9-45CA-8B99-1B3F29415811}|DesignPattern.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\week 5\\designpattern\\documentfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565B7951-DCC9-45CA-8B99-1B3F29415811}|DesignPattern.csproj|solutionrelative:documentfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565B7951-DCC9-45CA-8B99-1B3F29415811}|DesignPattern.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\week 5\\designpattern\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565B7951-DCC9-45CA-8B99-1B3F29415811}|DesignPattern.csproj|solutionrelative:databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ILoanFeeStrategy.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 5\\DesignPattern\\ILoanFeeStrategy.cs",
+              "RelativeDocumentMoniker": "ILoanFeeStrategy.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 5\\DesignPattern\\ILoanFeeStrategy.cs",
+              "RelativeToolTip": "ILoanFeeStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:33:56.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IObserver.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 5\\DesignPattern\\IObserver.cs",
+              "RelativeDocumentMoniker": "IObserver.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 5\\DesignPattern\\IObserver.cs",
+              "RelativeToolTip": "IObserver.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:30:14.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DocumentFactory.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 5\\DesignPattern\\DocumentFactory.cs",
+              "RelativeDocumentMoniker": "DocumentFactory.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 5\\DesignPattern\\DocumentFactory.cs",
+              "RelativeToolTip": "DocumentFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:22:14.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 5\\DesignPattern\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "DatabaseConnection.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 5\\DesignPattern\\DatabaseConnection.cs",
+              "RelativeToolTip": "DatabaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:08:13.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 5\\DesignPattern\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 5\\DesignPattern\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:07:34.597Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

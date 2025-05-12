@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Mock Test\\MockTestCSE422\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF0BE74-2B25-4F62-9A7D-3576E7C0E806}|MockTestCSE422.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\mock test\\mocktestcse422\\assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF0BE74-2B25-4F62-9A7D-3576E7C0E806}|MockTestCSE422.csproj|solutionrelative:assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF0BE74-2B25-4F62-9A7D-3576E7C0E806}|MockTestCSE422.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\mock test\\mocktestcse422\\assignment2\\notificationsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF0BE74-2B25-4F62-9A7D-3576E7C0E806}|MockTestCSE422.csproj|solutionrelative:assignment2\\notificationsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF0BE74-2B25-4F62-9A7D-3576E7C0E806}|MockTestCSE422.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\mock test\\mocktestcse422\\assignment2\\smsnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF0BE74-2B25-4F62-9A7D-3576E7C0E806}|MockTestCSE422.csproj|solutionrelative:assignment2\\smsnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF0BE74-2B25-4F62-9A7D-3576E7C0E806}|MockTestCSE422.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\mock test\\mocktestcse422\\assignment2\\pushnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF0BE74-2B25-4F62-9A7D-3576E7C0E806}|MockTestCSE422.csproj|solutionrelative:assignment2\\pushnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF0BE74-2B25-4F62-9A7D-3576E7C0E806}|MockTestCSE422.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\mock test\\mocktestcse422\\assignment2\\emailnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF0BE74-2B25-4F62-9A7D-3576E7C0E806}|MockTestCSE422.csproj|solutionrelative:assignment2\\emailnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BF0BE74-2B25-4F62-9A7D-3576E7C0E806}|MockTestCSE422.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\mock test\\mocktestcse422\\assignment2\\inotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BF0BE74-2B25-4F62-9A7D-3576E7C0E806}|MockTestCSE422.csproj|solutionrelative:assignment2\\inotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Mock Test\\MockTestCSE422\\Assignment2\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment2\\Program.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Mock Test\\MockTestCSE422\\Assignment2\\Program.cs*",
+              "RelativeToolTip": "Assignment2\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:38:47.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotificationSender.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Mock Test\\MockTestCSE422\\Assignment2\\NotificationSender.cs",
+              "RelativeDocumentMoniker": "Assignment2\\NotificationSender.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Mock Test\\MockTestCSE422\\Assignment2\\NotificationSender.cs",
+              "RelativeToolTip": "Assignment2\\NotificationSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:27:44.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SmsNotification.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Mock Test\\MockTestCSE422\\Assignment2\\SmsNotification.cs",
+              "RelativeDocumentMoniker": "Assignment2\\SmsNotification.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Mock Test\\MockTestCSE422\\Assignment2\\SmsNotification.cs",
+              "RelativeToolTip": "Assignment2\\SmsNotification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:19:57.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PushNotification.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Mock Test\\MockTestCSE422\\Assignment2\\PushNotification.cs",
+              "RelativeDocumentMoniker": "Assignment2\\PushNotification.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Mock Test\\MockTestCSE422\\Assignment2\\PushNotification.cs",
+              "RelativeToolTip": "Assignment2\\PushNotification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:18:54.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmailNotification.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Mock Test\\MockTestCSE422\\Assignment2\\EmailNotification.cs",
+              "RelativeDocumentMoniker": "Assignment2\\EmailNotification.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Mock Test\\MockTestCSE422\\Assignment2\\EmailNotification.cs",
+              "RelativeToolTip": "Assignment2\\EmailNotification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:17:57.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "INotification.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Mock Test\\MockTestCSE422\\Assignment2\\INotification.cs",
+              "RelativeDocumentMoniker": "Assignment2\\INotification.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Mock Test\\MockTestCSE422\\Assignment2\\INotification.cs",
+              "RelativeToolTip": "Assignment2\\INotification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:13:50.931Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 1\\Exercises\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{812DAC1D-F631-4572-A7F4-64559CE14DCD}|Exercises\\Exercises.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\week 1\\exercises\\exercises\\problem1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812DAC1D-F631-4572-A7F4-64559CE14DCD}|Exercises\\Exercises.csproj|solutionrelative:exercises\\problem1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812DAC1D-F631-4572-A7F4-64559CE14DCD}|Exercises\\Exercises.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\week 1\\exercises\\exercises\\problem2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812DAC1D-F631-4572-A7F4-64559CE14DCD}|Exercises\\Exercises.csproj|solutionrelative:exercises\\problem2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{812DAC1D-F631-4572-A7F4-64559CE14DCD}|Exercises\\Exercises.csproj|d:\\eiu\\2425-q2\\cse_422\\lab\\week 1\\exercises\\exercises\\problem3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812DAC1D-F631-4572-A7F4-64559CE14DCD}|Exercises\\Exercises.csproj|solutionrelative:exercises\\problem3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Problem3.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 1\\Exercises\\Exercises\\Problem3.cs",
+              "RelativeDocumentMoniker": "Exercises\\Problem3.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 1\\Exercises\\Exercises\\Problem3.cs",
+              "RelativeToolTip": "Exercises\\Problem3.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwB4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T16:30:53.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Problem2.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 1\\Exercises\\Exercises\\Problem2.cs",
+              "RelativeDocumentMoniker": "Exercises\\Problem2.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 1\\Exercises\\Exercises\\Problem2.cs",
+              "RelativeToolTip": "Exercises\\Problem2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T11:02:16.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Problem1.cs",
+              "DocumentMoniker": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 1\\Exercises\\Exercises\\Problem1.cs",
+              "RelativeDocumentMoniker": "Exercises\\Problem1.cs",
+              "ToolTip": "D:\\EIU\\2425-Q2\\CSE_422\\Lab\\Week 1\\Exercises\\Exercises\\Problem1.cs",
+              "RelativeToolTip": "Exercises\\Problem1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T13:40:58.526Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

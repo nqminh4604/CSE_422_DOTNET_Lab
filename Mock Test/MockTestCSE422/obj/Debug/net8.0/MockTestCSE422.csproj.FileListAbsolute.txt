@@ -1,0 +1,15 @@
+D:\EIU\2425-Q2\CSE_422\Lab\Mock Test\MockTestCSE422\bin\Debug\net8.0\MockTestCSE422.exe
+D:\EIU\2425-Q2\CSE_422\Lab\Mock Test\MockTestCSE422\bin\Debug\net8.0\MockTestCSE422.deps.json
+D:\EIU\2425-Q2\CSE_422\Lab\Mock Test\MockTestCSE422\bin\Debug\net8.0\MockTestCSE422.runtimeconfig.json
+D:\EIU\2425-Q2\CSE_422\Lab\Mock Test\MockTestCSE422\bin\Debug\net8.0\MockTestCSE422.dll
+D:\EIU\2425-Q2\CSE_422\Lab\Mock Test\MockTestCSE422\bin\Debug\net8.0\MockTestCSE422.pdb
+D:\EIU\2425-Q2\CSE_422\Lab\Mock Test\MockTestCSE422\obj\Debug\net8.0\MockTestCSE422.GeneratedMSBuildEditorConfig.editorconfig
+D:\EIU\2425-Q2\CSE_422\Lab\Mock Test\MockTestCSE422\obj\Debug\net8.0\MockTestCSE422.AssemblyInfoInputs.cache
+D:\EIU\2425-Q2\CSE_422\Lab\Mock Test\MockTestCSE422\obj\Debug\net8.0\MockTestCSE422.AssemblyInfo.cs
+D:\EIU\2425-Q2\CSE_422\Lab\Mock Test\MockTestCSE422\obj\Debug\net8.0\MockTestCSE422.csproj.CoreCompileInputs.cache
+D:\EIU\2425-Q2\CSE_422\Lab\Mock Test\MockTestCSE422\obj\Debug\net8.0\MockTestCSE422.sourcelink.json
+D:\EIU\2425-Q2\CSE_422\Lab\Mock Test\MockTestCSE422\obj\Debug\net8.0\MockTestCSE422.dll
+D:\EIU\2425-Q2\CSE_422\Lab\Mock Test\MockTestCSE422\obj\Debug\net8.0\refint\MockTestCSE422.dll
+D:\EIU\2425-Q2\CSE_422\Lab\Mock Test\MockTestCSE422\obj\Debug\net8.0\MockTestCSE422.pdb
+D:\EIU\2425-Q2\CSE_422\Lab\Mock Test\MockTestCSE422\obj\Debug\net8.0\MockTestCSE422.genruntimeconfig.cache
+D:\EIU\2425-Q2\CSE_422\Lab\Mock Test\MockTestCSE422\obj\Debug\net8.0\ref\MockTestCSE422.dll
